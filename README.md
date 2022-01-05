@@ -4,11 +4,22 @@
 
 O desafio era criar todos os endpoints da API respeitando as regras estipuladas. Sendo eles:
 ### POST `/users`
+Criar novos usuários.
+
 ### GET `/todos`
+Buscar a lista de afazeres de um usuário.
+
 ### POST `/todos`
+Adicionar um novo todo a um usuário.
+
 ### PUT `/todos/:id`
+Alterar o conteúdo de um todo.
+
 ### PATCH `/todos/:id/done`
+Marcar um todo como done
+
 ### DELETE `/todos/:id`
+Deletar um todo.
 
 E suas regras:
 - **Should be able to create a new user**
